@@ -1,0 +1,5 @@
+app:
+  google-oauth2:
+    client-id: abcdefg
+    client-secret: 123456790
+    client-port: 0

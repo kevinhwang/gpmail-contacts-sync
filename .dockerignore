@@ -1,0 +1,9 @@
+.*ignore
+
+.DS_Store
+
+.git/
+.idea/
+build/
+
+*.md

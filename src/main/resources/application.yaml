@@ -1,0 +1,16 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: off
+  jackson:
+    serialization:
+      indent_output: true
+  codec:
+    max-in-memory-size: 16MB
+app:
+  google-oauth2:
+    client-host: localhost
+    client-port: 8080
+    client-callback-path: /code
+  tribe:
+    host: tribe.gracepointonline.org
